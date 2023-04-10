@@ -1,6 +1,6 @@
 {
     "name": "@awwwkshay/finetouch-ui",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "module",
     "author": {
         "name": "Akshay Priyadarshi",
@@ -11,11 +11,15 @@
         "url": "https://github.com/Akshay-Priyadarshi/finetouch-ui"
     },
     "files": [
-        "dist"
+        "/dist"
     ],
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://www.npmjs.com/package/@awwwkshay/finetouch-ui"
+    },
     "main": "./dist/finetouch-ui.umd.cjs",
     "module": "./dist/finetouch-ui.js",
-    "types": "./dist/index.d.ts",
+    "typings": "./dist/index.d.ts",
     "exports": {
         ".": {
             "import": "./dist/finetouch-ui.js",
@@ -39,5 +43,11 @@
     "peerDependencies": {
         "solid-js": "^1.7.3",
         "vite-plugin-solid": "^2.7.0"
-    }
+    },
+    "keywords": [
+        "ui",
+        "solid",
+        "reactive",
+        "typescript"
+    ]
 }
