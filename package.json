@@ -8,18 +8,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/bigyanpoudel/react-vite-library"
+        "url": "https://github.com/Akshay-Priyadarshi/finetouch-ui"
     },
     "files": [
         "dist"
     ],
-    "main": "./dist/my-lib.umd.cjs",
-    "module": "./dist/my-lib.js",
+    "main": "./dist/finetouch-ui.umd.cjs",
+    "module": "./dist/finetouch-ui.js",
     "types": "./dist/index.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/my-lib.js",
-            "require": "./dist/my-lib.umd.cjs"
+            "import": "./dist/finetouch-ui.js",
+            "require": "./dist/finetouch-ui.umd.cjs"
         }
     },
     "scripts": {
