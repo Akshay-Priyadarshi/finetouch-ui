@@ -1,0 +1,44 @@
+{
+    "name": "@awwwkshay/finetouch-ui",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "author": {
+        "name": "Akshay Priyadarshi",
+        "email": "akshayp1904@outlook.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bigyanpoudel/react-vite-library"
+    },
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/my-lib.umd.cjs",
+    "module": "./dist/my-lib.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/my-lib.js",
+            "require": "./dist/my-lib.umd.cjs"
+        }
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.0",
+        "@types/node": "^18.15.11",
+        "jest": "^29.5.0",
+        "ts-jest": "^29.1.0",
+        "typescript": "^4.9.3",
+        "vite": "^4.2.0",
+        "vite-plugin-dts": "^2.2.0"
+    },
+    "peerDependencies": {
+        "solid-js": "^1.7.3",
+        "vite-plugin-solid": "^2.7.0"
+    }
+}
