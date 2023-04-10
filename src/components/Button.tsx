@@ -1,7 +1,7 @@
 import { Component } from "solid-js"
 
 const Button: Component<{ name: string }> = (props) => {
-    return <h2>{props.name}</h2>
+    return <button>{props.name}</button>
 }
 
 export default Button

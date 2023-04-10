@@ -1,31 +1,29 @@
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "moduleResolution": "Node",
-    "strict": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "noEmit": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "skipLibCheck": true,
-    "declaration": true,
-    "baseUrl": ".",
-    "paths": {
-      "finetouch-ui": [ "src/index.ts" ]
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "lib": ["ESNext", "DOM"],
+        "moduleResolution": "Node",
+        "strict": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "esModuleInterop": true,
+        "noEmit": true,
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+        "types": ["vite/client"],
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "skipLibCheck": true,
+        "declaration": true,
+        "baseUrl": ".",
+        "paths": {
+            "finetouch-ui": ["src/index.ts"]
+        },
+        "typeRoots": ["node_modules/@types"]
     },
-    "typeRoots": [
-      "node_modules/@types",
-    ]
-  },
-  "include": ["src"],
-  "exclude": ["**/node_modules"]
+    "include": ["src"],
+    "exclude": ["**/node_modules"]
 }
