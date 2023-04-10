@@ -27,6 +27,8 @@ export default defineConfig({
                 extend: true,
             },
         },
+        sourcemap: true,
+        emptyOutDir: true,
     },
     plugins: [solidPlugin(), dts()],
 })

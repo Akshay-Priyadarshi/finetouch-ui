@@ -2,6 +2,7 @@
     "name": "@awwwkshay/finetouch-ui",
     "version": "0.0.2",
     "type": "module",
+    "license": "MIT",
     "author": {
         "name": "Akshay Priyadarshi",
         "email": "akshayp1904@outlook.com"
@@ -11,7 +12,7 @@
         "url": "https://github.com/Akshay-Priyadarshi/finetouch-ui"
     },
     "files": [
-        "/dist"
+        "dist"
     ],
     "publishConfig": {
         "access": "public",

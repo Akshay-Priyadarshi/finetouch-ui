@@ -17,8 +17,9 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "skipLibCheck": true,
+    "declaration": true,
     "baseUrl": ".",
-     "paths": {
+    "paths": {
       "finetouch-ui": [ "src/index.ts" ]
     },
     "typeRoots": [
